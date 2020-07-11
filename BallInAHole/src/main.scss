@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merienda One', cursive;
+}
+
+html, body{
+  overflow: hidden;
+}
+
+body {
+  background: white;
+}
+
+#GameEnd{
+  position: fixed;
+
+  background-color: grey;
+  border: 2px solid #333;
+
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 300px;
+  height: 100px;
+
+  top: calc(50vh - 50px);
+  left: calc(50vw - 150px);
+}
+
+#GameEndLabel{
+  margin-bottom: 30px;
+}
+
+#RestartButton{
+  background-color: #333;
+  color: white;
+  width: 150px;
+  height: 40px;
+}
